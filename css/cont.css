@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+
+/* general text formatting */
+
+h1, h2, h3, legend {
+ font-family: 'Merriweather', serif;    }
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 16px;
+}
+
+table {  
+   width: 90%;
+   margin: 0 auto;
+}
+table tbody td{
+   vertical-align: top;
+}
+
+legend {
+   background-color: #616161 ;
+    color: white;
+   margin: 0 auto;
+   width: 90%;
+   padding: 0.25em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 24px;
+}
+fieldset {
+   margin: 1em auto;
+   background-color: #F5F5F5;
+   width: 70%;
+}
+form p {
+   margin-top: 0.5em;
+}
+form input[type="text"], form select {
+    font-size: 16px;
+    height: 24px;
+    padding: 3px;
+}
+form select {
+    height: 30px;
+}
+#title, #description { width: 100% }
+#medium, #museum { width: 90% }
+#year { width: 40%; }
+
+
+.box {
+   border: 1pt solid #9E9E9E;
+   padding: 0.5em;
+   margin-bottom: 0.4em;
+}
+
+.rectangle {
+   background-color: #BDBDBD;
+   padding: 0.5em;
+    margin-bottom: 5px;
+}
+.centered {
+   text-align: center;
+}
+.highlight {
+    background-color: #FFE0B2;
+}    
+.error {
+    background: #FFCDD2 url(error.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #FF5252;
+    border-color: #FF1744;    
+}
+
+
+
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  height: 32px;
+  color: black;
+  font-size: 14px;
+  background: #FF9100;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFAB40;
+  text-decoration: none;
+}
+
+	
+
+#content{
+    margin-top:10%;
+    margin-left:15%;
+    display:block;
+}
+#map{
+    width:70%;
+    height:400px;
+    
+
+}
+p{
+    max-width:600px;
+}
+form{
+    margin-top:5%;
+    margin-bottom:3%;
+    width:75%;
+    border:1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(57, 80, 95); 
+}
+label{
+    font-size:150%;
+    margin-bottom: 1%;
+    margin-top:1%;
+    display: block;
+}
+
+::placeholder {
+    color:grey;
+    opacity: 0.5; 
+}
+input[type=text],input[type=email]
+{
+    width:75%;
+    padding:1%; 
+    border:1px solid black;
+    border-radius: 5px;
+    display:block;
+}
+
+#title{
+    width:77%;
+
+}
+
+label,input,textarea{
+    margin-left:12%;
+}
+
+textarea{
+    border-radius: 5px;
+    width:73%;
+    resize: none;
+    padding:2%;
+    display:block;
+    margin-bottom:2%;
+}
+
+
+input[type=text]:focus, input[type=email]:focus{
+    background-color:white;
+    outline: none;
+}
+
+button{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 1%;
+    font-size:120%; 
+    display:block;
+    background-color: dimgray;
+    color: white;
+    padding: 2%  3%;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.8;
+
+}
+button:hover {
+    opacity:1;
+}

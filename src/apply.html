@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      
+       <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HSP Official website</title>
+      <link href="../css/reset.css" rel="stylesheet" />
+       <link href="../css/layout.css" rel="stylesheet" />
+      <link href="../css/apply.css" rel="stylesheet" />
+   </head>
+   <body>
+      <header>
+            <h1 id="name">Hogwarts School for Palestinians</h1>
+            <img id="Logo" src="../img/logo.png" alt="Our Logo" title="School">
+      </header>
+      <nav id="cssmenu">
+        <ul>
+           <li><a href="home.html" class="active">Home</a></li>
+           <li >
+              <a href="about.html">About</a>
+           </li>
+           <li >
+              <a href="addmission.html">Addmissions</a>
+           </li>
+           <li >
+              <a href="tuition.html">Tuition and Fees</a>
+           </li>
+           <li>
+              <a href="apply.html">Apply</a>
+           </li>
+           <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+         
+     </nav>
+      
+ 
+
+         <div id="content">
+             <h1>Apply for our School</h1>
+
+             <p>Dear Parent/Guardian,</p>
+
+                <p>Welcome to our school's Admission Center. Please use this form to apply for your child's 
+                admission to our school. We need complete and accurate information about the student,
+                 so make sure you fill out all fields.</p>
+                    
+                <p>School Admission Forms are processed within 48 hours. You will receive an email 
+                confirmation when we process your application.
+                </p>
+                <hr>
+
+    <form id="mainform">
+        
+        <div>
+      <label for="name"><b>Student's Name</b></label>
+      <input type="text" placeholder="First Name" name="fName" class="required hilightable">
+      <input type="text" placeholder="Last Name" name="lName" class="required hilightable">  
+    </div>
+    <div>
+      <label for="grade"><b>Grade to Enter</b></label>
+      <select id="gr" class="required hilightable">
+          <option value="7">7th Grade</option>
+          <option value="8">8th Grade</option>
+          <option value="9">9th Grade</option>
+          <option value="10">10th Grade</option>
+          <option value="11">11th Grade</option>
+          <option value="12">12th Grade</option> 
+    </select>
+</div>
+
+    <div>
+      <label for="DOB"><b>Student's date of birth</b></label>
+      <input type="date" placeholder="mm/dd/yy" name="DOB" required class="required hilightable">
+    </div>
+
+
+    <div>
+      <label for="pname"><b>Parent's Name</b></label>
+      <input type="text" placeholder="First Name" name="pname" class="required hilightable">
+      <input type="text" placeholder="Last Name" name="plName" class="required hilightable">  
+    </div> 
+      
+      <div id="ads">
+      <label for="address"><b>Current Address</b></label>
+      <input type="text" placeholder="Street Address" name="stAdrs" class="hilightable"><br>
+      <input type="text" placeholder="City" name="city" class="hilightable">
+      <input type="text" placeholder="Region" name="rgn" class="hilightable"><br>
+      <input type="text" placeholder="ZIP Code" name="zip" class="hilightable">
+      <select required>
+            <option value="ps">Palestine</option>
+            <option value="jd">Jordan</option>
+            </select>
+        </div>
+       
+       <div> 
+      <label for="phone"><b>Phone</b></label>
+      <input type="tel" placeholder="Phone" name="phone" class="required hilightable">
+    </div>
+        <div>      
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" class="required hilightable">
+    </div>
+
+      
+        <button type="submit" id="sub">Send Application</button>
+  </form>
+
+                
+
+         </div>
+
+
+
+          
+         <footer>
+            <hr/>
+            <p id="contact"> Send your feedback to :
+            <a href="mailto:ahmad.yahya@kawaiiFashion.ps">ahmad.yahya@HSP.ps</a></p>
+            <p>Last update: 11/5/2018 at
+                <time datetime="2018-05-11 10:34:00"> 10:34 PM</time>
+            </p>
+              <p>Devs: Ahmad Yahya, Amer Abdallah</p>
+              <p>Phone:0599579308</p>
+            <small>&copy; Copyright 2018, Hogwarts School for Palestinians </small>
+        </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script type="text/javascript" src="../js/javascript.js"></script>
+       </body>
+    </html>
+    

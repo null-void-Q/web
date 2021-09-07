@@ -1,0 +1,198 @@
+/**** HEADER *****/
+header{
+	padding: 1% 2%;
+	box-sizing:border-box;
+	box-shadow: 0 0 7px 0 white;
+	height:11%;
+	background-color: black;
+}
+
+header  a{
+	float: left;
+	margin: 0;
+}
+header{   
+    background: linear-gradient(to left,#101519,#6D96B2,#6D96B2,#101519);
+    position:fixed;
+	right:.6%;
+	left:.6%;
+    top:0%;
+}
+#Logo{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 0px;
+    width:8%;
+    height:100%;
+    
+}
+#name{
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    color:whitesmoke;
+    font-family:monospace;
+        
+}
+
+/*******************************************************************/
+
+
+
+
+
+/**** BODY *****/
+
+
+
+body{
+    background-color: #3E5666;
+    color:white;
+    padding: 0;
+    margin: 0;
+    height:100%;
+    width:100%;
+    min-height:600px;
+    min-width:1200px;
+    position:relative;
+}
+
+
+/*******************************************************************/
+
+
+
+
+
+
+/**** Menu*****/
+
+
+
+
+
+
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+}
+#cssmenu ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+  position: relative;
+}
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+
+#cssmenu ul li:hover > ul {
+  visibility: visible;
+}
+#cssmenu ul li {
+  float: none;
+}
+#cssmenu {
+  min-width: 160px;
+  height:100%;
+  background: #333333;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  font-size: 12px;
+}
+#cssmenu:before {
+  content: '';
+  display: block;
+}
+#cssmenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu a { 
+  display: block;
+  padding: 12px 12px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  width:100%;
+}
+
+#cssmenu > ul > li > a {
+  border-right: 1px solid #333333;
+  color: #ffffff;
+}
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+
+#cssmenu > ul > li a:hover,
+#cssmenu > ul > li:hover a {
+  background: #85ADBA;
+}
+#cssmenu{
+    float: left;
+    height: 88%;
+    position:fixed;
+	background-color :#333333;
+	border:4px solid #5D7982;
+  top:12%;
+  max-width:100px;
+}
+nav a{
+
+
+	display:block ;
+	padding: 5%;
+	border-bottom: 2px solid white;
+	text-align: center;
+	width:100%;
+
+
+}
+
+nav{
+  height:88%;
+  max-width:100px;
+}
+
+/*******************************************************************/
+
+
+
+
+
+/**** FOOTER *****/
+
+
+footer{
+  position: absolute;
+  bottom:0 auto;
+  width: 88.5%;
+  margin-left:11.5%;
+  z-index: -200;
+}
+footer p{
+    display:inline;
+    margin:2%;
+    font-size:60%; 
+}
+footer small{
+  margin-left: 5%;
+}

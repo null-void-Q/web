@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>HSP Official website</title>
+      <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+      <link href="../css/reset.css" rel="stylesheet" />
+      <link href="../css/layout.css" rel="stylesheet" />
+       <link href="../css/cont.css" rel="stylesheet" />
+   </head>
+   <body>
+    <header>
+        <h1 id="name">Hogwarts School for Palestinians</h1>
+        <img id="Logo" src="../img/logo.png" alt="Our Logo" title="School">
+  </header>
+  <nav id="cssmenu">
+        <ul>
+           <li><a href="home.html" class="active">Home</a></li>
+           <li >
+              <a href="about.html">About</a>
+           </li>
+           <li >
+              <a href="addmission.html">Addmissions</a>
+           </li>
+           <li >
+              <a href="tuition.html">Tuition and Fees</a>
+           </li>
+           <li>
+              <a href="apply.html">Apply</a>
+           </li>
+           <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+         
+     </nav>
+        <div id="content">
+        
+        <h2>Contact Us:</h2>
+        <p>If you have a question about any aspect of our programmes you can normally find an answer using our Frequently Asked Questions.
+             If you have any other questions not answered by the FAQs page, and haven’t found the information on our website 
+             please contact us through this form and we will be happy to help. 
+                </p>
+        <form>
+
+         <label>Title</label>   
+         <input id="title" type="text" placeholder="Title" class="required hilightable">
+
+         <label>Email</label>   
+         <input  type="email" placeholder="Email" class="required hilightable">
+      
+        
+         <label>Message</label>   
+         <textarea placeholder="Enter your message here." rows="6" class="required hilightable"></textarea>
+    
+         <button type="submit" id = "sub">Send</button>
+        </form>
+
+        <h2>Find us at:</h2>
+        <p>find us in Palestine, Ramallah, Yafa Street.</p>
+        <div id="map">
+        </div>
+        <script>
+                function initMap() {
+                  var uluru = {lat: 31.900, lng: 35.198};
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 15,
+                    center: uluru
+                  });
+                  var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                  });
+                }
+              </script>
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPfMZCZGQ2wancxwzg3NdM4ScD0jLMvAg&callback=initMap">
+              </script>
+        </div>
+
+         <footer>
+        <hr/>
+        <p id="contact"> Send your feedback to :
+        <a href="mailto:ahmad.yahya@kawaiiFashion.ps">ahmad.yahya@HSP.ps</a></p>
+        <p>Last update: 11/5/2018 at
+            <time datetime="2018-05-11 10:34:00"> 10:34 PM</time>
+        </p>
+          <p>Devs: Ahmad Yahya, Amer Abdallah</p>
+          <p>Phone:0599579308</p>
+        <small>&copy; Copyright 2018, Hogwarts School for Palestinians </small>
+    </footer>
+	
+			<script type="text/javascript" src="../js/javascript.js"></script>
+
+   </body>
+</html>

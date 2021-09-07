@@ -1,0 +1,33 @@
+#content{
+    margin-top:10%; 
+    margin-left:15%;
+ }
+table{
+    margin-left:10%;
+    margin-bottom:5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+table,tr,th,td{
+    border:3px solid black;
+    text-align: center;
+    padding:2em;
+}
+
+thead tr{
+    background-color: #403E3A;
+    padding: 5%;
+}
+tbody tr{
+    background-color:rgb(52, 79, 97);
+    color:#FFFAEF;
+}
+caption{
+    font-size:150%;
+    padding:2%;
+    color:white;
+}
+.inf{
+    margin-left:30%;
+}

@@ -1,0 +1,51 @@
+#content{
+    margin-top:10%; 
+ }
+table{
+    margin-left:15%;
+    margin-bottom:5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+table,tr,th,td{
+    border:3px solid black;
+    text-align: center;
+    padding:2em;
+}
+
+thead tr{
+    background-color: #403E3A;
+    padding: 5%;
+}
+tbody tr{
+    background-color:rgb(52, 79, 97);
+    color:#FFFAEF;
+}
+
+td:nth-child(1){
+    background-color: #403E3A;
+    color:white;
+}
+.class{
+    background-color: #2D6E61;
+    color:white;
+}
+td:nth-child(5){
+    background-color: #474E4F;
+    color:white;
+}
+td:nth-child(9){
+    background-color: #474E4F;
+    color:white;
+}
+#loginInfo{
+    float: right;
+    font-size:120%;
+    margin-right:15%;
+}
+#loginInfo img{
+    border:1px solid black;
+    border-radius:5px;
+
+}

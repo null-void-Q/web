@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+
+/* general text formatting */
+
+h1, h2, h3, legend {
+ font-family: 'Merriweather', serif;    }
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 16px;
+}
+
+table {  
+   width: 90%;
+   margin: 0 auto;
+}
+table tbody td{
+   vertical-align: top;
+}
+
+legend {
+   background-color: #616161 ;
+    color: white;
+   margin: 0 auto;
+   width: 90%;
+   padding: 0.25em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 24px;
+}
+fieldset {
+   margin: 1em auto;
+   background-color: #F5F5F5;
+   width: 70%;
+}
+form p {
+   margin-top: 0.5em;
+}
+form input[type="text"], form select {
+    font-size: 16px;
+    height: 24px;
+    padding: 3px;
+}
+form select {
+    height: 30px;
+}
+#title, #description { width: 100% }
+#medium, #museum { width: 90% }
+#year { width: 40%; }
+
+
+.box {
+   border: 1pt solid #9E9E9E;
+   padding: 0.5em;
+   margin-bottom: 0.4em;
+}
+
+.rectangle {
+   background-color: #BDBDBD;
+   padding: 0.5em;
+    margin-bottom: 5px;
+}
+.centered {
+   text-align: center;
+}
+.highlight {
+    background-color: #FFE0B2;
+}    
+.error {
+    background: #FFCDD2 url(error.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #FF5252;
+    border-color: #FF1744;    
+}
+
+
+
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  height: 32px;
+  color: black;
+  font-size: 14px;
+  background: #FF9100;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFAB40;
+  text-decoration: none;
+}
+
+
+#login{
+    position: fixed;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%;
+}
+#user:before{
+  content: " +"
+}
+#pass:before{
+  content: " +"
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right:auto;
+    display:block;
+    width: 100%;
+    
+}
+
+input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+after { clear: both; }
+
+#login {
+  margin: 50px auto;
+  width: 320px;
+}
+
+#login form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+
+#login form span {
+  background-color: #363b41;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #606468;
+  display: block;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+#login form input[type="text"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 235px;
+  height: 50px;
+}
+
+#login form input[type="password"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 235px;
+  height: 50px;
+}
+
+#login form input[type="submit"] {
+  background: #b5cd60;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#login form input[type="submit"]:hover {
+  background: #16aa56;
+}

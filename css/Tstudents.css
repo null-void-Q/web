@@ -1,0 +1,27 @@
+#content{
+    margin-top:10%; 
+ }
+table{
+    margin-left:30%;
+    margin-bottom:5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+table,tr,th,td{
+    border:3px solid black;
+    text-align: center;
+    padding:2em;
+}
+
+thead tr{
+    background-color: #403E3A;
+    padding: 5%;
+}
+tbody tr{
+    background-color:rgb(52, 79, 97);
+    color:#FFFAEF;
+}
+#content h1{
+    text-align: center;
+}
